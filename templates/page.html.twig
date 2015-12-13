@@ -1,0 +1,49 @@
+<div class="layout-container">
+
+  <header class="banner" role="banner">
+    
+
+    {% if page.header %}
+      {{ page.header }}
+    {% endif %}
+
+
+  </header>
+
+  {% if page.primary_menu %}
+    <a id="menu-toggle" class="anchor" href="#">Menu</a>
+    <nav class="menu menu-primary col-1-1">
+      <div class="container">
+        {{ page.primary_menu }}
+      </div>
+    </nav>
+  {% endif %}
+  
+  <div class="container grid grid-pad">
+
+    {{ page.help }}
+
+    <main role="main" class="col-1-1">
+
+      {% if title %}
+        <h1 class="title">
+          {{ title }}
+        </h1>
+      {% endif %}
+
+      <div class="content">
+        {{ page.content }}
+      </div>
+    </main>
+
+  </div>
+
+  {% if page.footer %}
+    <footer>
+
+      {{page.footer}}
+
+    </footer>
+  {% endif %}
+
+</div>

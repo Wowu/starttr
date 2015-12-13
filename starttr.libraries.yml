@@ -1,0 +1,13 @@
+global-css:
+  css:
+    theme:
+      css/normalize.css: {}
+      css/simplegrid.css: {}
+      css/style.css: {}
+      css/responsive-menu.css: {}
+
+global-js:
+  js:
+    js/main.js: {}
+  dependencies:
+   - core/jquery
