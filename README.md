@@ -18,13 +18,13 @@ Starttr is created to be used as a base theme, so you should create a sub-theme.
     https://drupal.org/getting-started/install-contrib/themes)
 2. Create sub-theme
   - create a directory named as you want to, ex. `mytheme`
-  - create `mytheme.info.yml` file cointaining basic theme settings, and `base theme: starttr` key.
+  - create `mytheme.info.yml` file cointaining basic theme settings, and `base theme: starttr` key. Your sub-theme will inherit all styles and scripts from Starttr. Note: name of the `.info.yml` file must be the same as directory name.
     
-    Example file
+    Example `mytheme.info.yml` file:
     ```
     name: My Theme
     type: theme
-    description: This is a my sub theme of starttr
+    description: This is a my sub-theme of starttr
     core: 8.x
   
     # Defines the base theme
