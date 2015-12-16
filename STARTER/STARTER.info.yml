@@ -1,0 +1,17 @@
+name: STARTER
+description: 'Simple mobile starter theme for Drupal 8'
+type: theme
+core: 8.x
+base theme: starttr
+
+#screenshot: screenshot.png
+
+libraries:
+  - starttr/global-css
+  - starttr/global-js
+
+regions:
+  header: 'Header'
+  content: 'Main content'
+  primary_menu: 'Primary menu'
+  footer: 'Footer'
