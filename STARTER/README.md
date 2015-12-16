@@ -6,7 +6,7 @@
    For example copy `sites/all/theme/starttr/STARTER` to 
    `sites/all/themes/STARTER` and rename it to `mytheme`
 
-2. Edit `STARTER.info.yml' and change each `STARTER` word to your theme name
+2. Edit `STARTER.info.yml` and change each `STARTER` word to your theme name
 
    Example: 
    `name: mytheme`
