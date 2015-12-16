@@ -8,15 +8,40 @@ normalize.css, basic styling, simple grid and responsive menu, so it is not nece
 this theme for a sub-theme.
 
 ## Installation
-Starttr is created to be your own theme rather than 'starttr', so to change the
-name of theme follow this steps:
+Starttr is created to be used as a base theme, so you should create a sub-theme.
 
+1. Install base theme
   - unpack zip file or clone repo to your themes directory, usually
     `PATH_TO_DRUPAL/sites/all/themes/`
   - go to administrator page on your Drupal site and go to Appearance. Now
     install the theme (for more information visit
     https://drupal.org/getting-started/install-contrib/themes)
-  - go to `STARTER/README.txt` to create your sub-theme
+2. Create sub-theme
+  - create a directory named as you want to, ex. `mytheme`
+  - create `mytheme.info.yml` file cointaining basic theme settings, and `base theme: starttr` key.
+    
+    Example file
+    ```
+    name: My Theme
+    type: theme
+    description: This is a my sub theme of starttr
+    core: 8.x
+  
+    # Defines the base theme
+    base theme: starttr
+    
+    # Defines libraries group in which we can add css/js.
+    libraries:
+      - mytheme/global-styling
+      
+    # Regions
+    regions:
+      header: Header
+      content: Content
+      primary_menu: Primary menu
+      footer: Footer
+  ```
+  More info about sub-themes: https://www.drupal.org/node/2165673
 
 ## Licenses
   - normalize.css - [github.com/necolas/normalize.css/](https://github.com/necolas/normalize.css/)
