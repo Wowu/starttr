@@ -41,7 +41,9 @@ Starttr is created to be used as a base theme, so you should create a sub-theme.
       primary_menu: Primary menu
       footer: Footer
   ```
+  
   More info about sub-themes: https://www.drupal.org/node/2165673
+  
   More info about theming Drupal 8: https://www.drupal.org/theme-guide/8
 
 ## Licenses
