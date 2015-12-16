@@ -7,7 +7,7 @@ it. Comparing to other starter themes, starttr is just a couple of files like
 normalize.css, basic styling, simple grid and responsive menu, so it is not necessary to use
 this theme for a sub-theme.
 
-## Instalation
+## Installation
 Starttr is created to be your own theme rather than 'starttr', so to change the
 name of theme follow this steps:
 
